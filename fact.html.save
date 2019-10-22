@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+int i,n,factorial=n;
+scanf("%d",&n);
+for(i=(n-1);i>1;i--)
+{
+factorial=factorial*i;
+}
+printf("%d",factorial);
+}
+return 0;
+}
+
